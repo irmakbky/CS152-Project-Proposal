@@ -2,6 +2,8 @@
 
 <img width="706" alt="Screen Shot 2022-01-31 at 10 31 19 PM" src="https://user-images.githubusercontent.com/70275805/151922679-d2decf1d-687c-4162-b8fa-519ef519af07.png">
 
+Cheng-Zhi Anna Huang (2018). [Music Transformer: Generating Music with Long-Term Structure](https://magenta.tensorflow.org/music-transformer) based on [this paper](https://arxiv.org/abs/1809.04281)
+
 ### Project Proposal
 
 In this project, I will be training a (deep) neural network to generate new compositions. The NN will be trained on MIDI data representing compositions from different composers and/or instruments.The NN is expected to discover harmonic, rhythmic, and melodic patterns and be able to predict the next “token” in a given sequence of MIDI data.
