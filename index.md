@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Generating Music
 
-You can use the [editor on GitHub](https://github.com/irmakbky/CS152-Project-Proposal/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<img width="706" alt="Screen Shot 2022-01-31 at 10 31 19 PM" src="https://user-images.githubusercontent.com/70275805/151922679-d2decf1d-687c-4162-b8fa-519ef519af07.png">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Project Proposal
 
-### Markdown
+In this project, I will be training a (deep) neural network to generate new compositions. The NN will be trained on MIDI data representing compositions from different composers and/or instruments.The NN is expected to discover harmonic, rhythmic, and melodic patterns and be able to predict the next “token” in a given sequence of MIDI data.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+One way to approach this will be by utilizing a language model. Expressing MIDI data as a sequence of words and training existing language models that perform unsupervised learning will help with this task. Some popular models are the transformer models (e.g. GPT-2).
 
-```markdown
-Syntax highlighted code block
+As a result of training a language model to predict the next token in an input sequence, I expect this model to generate a series of prediction that end up turning into a brand new composition, hopefully inspired by certain composer styles and the musical elements found in the training data.
 
-# Header 1
-## Header 2
-### Header 3
+### Project Goals
+1. Get MIDI data and train a NN for music generation
+2. Get NN to predict the next token in a given MIDI file
+3. Generate successive predictions to eventually produce full-length pieces
+4. Experiment with different instruments/composers
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/irmakbky/CS152-Project-Proposal/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
