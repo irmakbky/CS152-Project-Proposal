@@ -8,6 +8,7 @@ body {
 
 <body style="background-image: url("https://tinypng.com/images/social/website.jpg")">
 ## Music Generation Using MIDI Data
+</body>
 
 <img width="706" alt="Screen Shot 2022-01-31 at 10 31 19 PM" src="https://user-images.githubusercontent.com/70275805/151922679-d2decf1d-687c-4162-b8fa-519ef519af07.png">
 
@@ -26,4 +27,4 @@ As a result of training a language model to predict the next token in an input s
 2. Get NN to predict the next token in a given MIDI file
 3. Generate successive predictions to eventually produce full-length pieces
 4. Experiment with different instruments/composers
-</body>
+
