@@ -1,4 +1,8 @@
 ![](https://tinypng.com/images/social/website.jpg)
+
+<body style="background-image:https://tinypng.com/images/social/website.jpg">
+    
+</body/
 ## Music Generation Using MIDI Data
 
 <img width="706" alt="Screen Shot 2022-01-31 at 10 31 19 PM" src="https://user-images.githubusercontent.com/70275805/151922679-d2decf1d-687c-4162-b8fa-519ef519af07.png">
